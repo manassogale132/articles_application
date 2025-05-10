@@ -1,5 +1,7 @@
 # Articles Application
 
+![1000005041](https://github.com/user-attachments/assets/7836bbde-1929-4af4-8911-a9c1ddc50e36)
+
 A Flutter application for browsing and reading articles.
 
 ## Features

@@ -5,6 +5,7 @@ A Flutter application for browsing and reading articles.
 ## Features
 
 - Browse articles list
+- Search articles
 - View article details
 - Pull to refresh
 - Favorite articles

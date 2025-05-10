@@ -4,6 +4,8 @@
 
 A Flutter application for browsing and reading articles.
 
+## Features
+
 - Browse articles list
 - Search articles
 - View article details
@@ -46,16 +48,19 @@ A Flutter application for browsing and reading articles.
 
 ```
 lib/
-├── main.dart              # Application entry point
-├── models/                # Data models
-├── providers/             # State management
+├── main.dart
+├── models/
+│   └── article.dart
+├── providers/
 │   └── article_provider.dart
-├── screens/               # UI screens
-│   └── article_list_screen.dart
-├── utils/                 # Utility functions
+├── screens/
+│   ├── article_list_screen.dart
+│   └── article_detail_screen.dart
+├── utils/
 │   └── color_generator.dart
-└── widgets/               # Reusable UI components
-    └── id_avatar.dart
+└── widgets/
+    ├── id_avatar.dart
+    └── article_card.dart
 ```
 
 ## Dependencies

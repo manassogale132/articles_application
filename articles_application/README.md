@@ -1,16 +1,64 @@
-# articles_application
+# Articles Application
 
-A new Flutter project.
+A Flutter application for browsing and reading articles.
+
+## Features
+
+- Browse articles list
+- View article details
+- Pull to refresh
+- Favorite articles
+- Color-coded article identifiers
+- Responsive design for multiple device sizes
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK (^3.7.2)
+- Dart SDK (^3.7.2)
+- Android Studio / VS Code with Flutter extensions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository
+   ```
+   git clone https://github.com/yourusername/articles_application.git
+   ```
+
+2. Navigate to the project directory
+   ```
+   cd articles_application
+   ```
+
+3. Install dependencies
+   ```
+   flutter pub get
+   ```
+
+4. Run the app
+   ```
+   flutter run
+   ```
+
+## Project Structure
+
+```
+lib/
+├── main.dart              # Application entry point
+├── models/                # Data models
+├── providers/             # State management
+│   └── article_provider.dart
+├── screens/               # UI screens
+│   └── article_list_screen.dart
+├── utils/                 # Utility functions
+│   └── color_generator.dart
+└── widgets/               # Reusable UI components
+    └── id_avatar.dart
+```
+
+## Dependencies
+
+- [provider](https://pub.dev/packages/provider) - State management
+- [dio](https://pub.dev/packages/dio) - HTTP client
+- [shared_preferences](https://pub.dev/packages/shared_preferences) - Local Storage
